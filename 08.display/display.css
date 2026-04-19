@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hr-titulo {
+    border: 5px solid blue;
+    color: blue;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+
+.hr-todos {
+    border: 2px solid black;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.h2-todos {
+    text-align: center;
+}
+
+
+
+/* 1. Elementos em Bloco */
+.bloco {
+    display: block;
+    background-color: red;
+    padding: 0.5em;
+    border: 0.2em solid black;
+}
+
+.block-section3 {
+    display: block;
+    background-color: gray;
+    margin-top: 0.5em;
+    border: 0.2em solid black;
+}
+
+
+/* Inline */
+.inline {
+    display: inline;
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px;
+}
+
+
+/* Mostrar nenhum */
+.escondido-none {
+    display: none; 
+}
+
+
+/* Substituir o valor de exibição padrão */
+.espaco-bottom {
+    margin-bottom: 0.6em;
+}
+
+.span-block {
+    display: block;
+    background-color: yellow;
+}
+
+.div-em-inline {
+    display: inline;
+    background-color: aqua;
+}
+
+
+
+/* Ocultar um elemento - display: none ou visibilidade: hidden? */
+.escondido-visibilidade {
+    visibility: hidden;
+    background-color: purple;
+}
+
