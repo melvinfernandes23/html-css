@@ -1,0 +1,88 @@
+/* Unidades CSS */
+/* html {
+    font-size: 2em;
+} */
+
+body {
+    background-color: gray;
+}
+
+.h-header {
+    height: 6px; 
+    background-color: darkblue;
+    margin: 20px 0;     
+}
+
+hr {
+    height: 2px; 
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+hr.diferente {
+    background-color: red;
+}
+
+
+/* Unidades */
+p {
+    font-size: 20px
+}
+
+
+ /* Unidades Absolutas */
+.div-absoluta {
+    width: 200px;
+    background-color: red;
+}
+
+
+
+/* Unidades Relativas */
+
+/* rem */
+.p-2rem {
+    font-size: 2rem;
+}
+
+/* em */
+.div-pai {
+    font-size: 2em;
+}
+
+.p-filho {
+    /* font-size: 2em; */
+    font-size: 128px;
+}
+
+/* percentagem */
+.div-percentagem {
+    width: 50%;
+    background-color: brown;
+}
+
+/* div-vw */
+.div-vw {
+    width: 100vw;
+    background-color: yellowgreen;
+}
+
+/* vh */
+.div-vh {
+    height: 100vh;
+    background-color: aqua;
+}
+
+/* vmin */
+.p-min {
+    font-size: 2vmin;
+}
+
+/* vmin */
+.p-max {
+    font-size: 2vmax;
+}
