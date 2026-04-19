@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.hr-titulo {
+    border: 5px solid blue;
+    color: blue;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+
+.hr-todos {
+    border: 2px solid black;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.h2-2 {
+    text-align: center;
+}
+
+
+
+/* a:link */
+.link-n:link {
+    color: red;
+}
+
+/* a:visited */
+.link-v:visited {
+    color: black;
+}
+
+/* a:hover */
+.link-h:hover {
+    color: green;
+    /* background-color: yellow; */
+}
+
+/* a:active */
+.link-a:active {
+    color: blue;
+}
+
+
+/* Decoração de texto */
+.a-none:hover {
+    text-decoration: none;
+}
+
+/* Cor de fundo */
+.a-red:active {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+
+/* Botões de link */
+.link-button-normal:link, .link-button-active:active {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-button-normal:visited{
+    color: white;
+}
