@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hr-azul {
+    border: 5px solid blue;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+
+.hr-todos {
+    border: 2px solid black;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+
+
+/* Font-Family */
+.p-font-f {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+/* Font-size */
+.p-font-s {
+    font-size: 1.3rem;
+}
+
+
+/* Font-weight */
+.p-font-w {
+    font-weight: bold;
+}
+
+
+/* Font-style */
+.p-font-st {
+    font-style: italic;
+}
+
+
+/* Text-align */
+.p-text-a {
+    text-align: center;
+}
+
+
+/* Text-Color */
+.p-text-c {
+    color: purple;
+}
+
+
+/* Text-decoration */
+.p-text-d {
+    text-decoration: underline blue solid 2px;
+}
+
+
+/* Line-height */
+.p-line-h {
+    line-height: 2;
+}
+
+
+/* Letter-spacing */
+.p-letter-s {
+    letter-spacing: 5px;
+}
+
+
+/* Text-transform */
+.p-text-t {
+    text-transform: capitalize;
+}
+
+
+/* Text-indent */
+.p-text-i {
+    text-indent: 50px;
+}
+
+
+/* Text-direction */
+.p-text-direction {
+    direction: rtl;
+}
+
+
+/* Word-spacing */
+.p-word-s {
+    word-spacing: 0.5em;
+}
+
+
+/* Text-shadow */
+.p-text-shadow {
+    font-size: 1.5rem;
+    text-shadow: 10px -5px gray;
+    color: red;
+    text-transform: uppercase;
+    margin: 1.5em 0;
+    font-weight: bold;
+}
