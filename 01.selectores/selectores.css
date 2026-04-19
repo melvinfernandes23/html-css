@@ -1,0 +1,130 @@
+/* Selectores de elemento */
+
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    background-color: aqua;
+}
+
+p {
+    color: rgb(210, 252, 24);
+    font-size: 28px;
+}
+
+
+
+
+/* Selectores de classe */
+
+.p-b {
+    color: blue;
+}
+
+.p-g {
+    color: green;
+}
+
+.p-r {
+    color: red;
+}
+
+
+/* Selectores de id */
+
+#car {
+    color: purple;
+    font-size: 70px;
+}
+
+#abd {
+    color: brown;
+    font-size: 40px;
+}
+
+#mel {
+    color: cyan;
+    font-size: 20px;
+}
+
+/* Selectores de descendencia */
+
+section img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+section ul li {
+    color: red;
+    font-size: 30px;
+
+}
+
+
+/* Selectores de atributo */
+
+label {
+    color: darkblue;
+}
+
+input[type="text"] {
+    color: violet;
+    background-color: brown;
+}
+
+input[type="password"] {
+    width: 100%;
+}
+
+
+/* Selectores de Pseudo-classes */
+.div-pclasse {
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+}
+
+.div-pclasse:hover {
+    background-color: blueviolet;
+}
+
+.focus:focus {
+    background-color: red;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: brown;
+}
+/* Selectores de Pseudo-elementos */
+
+.pe::first-line {
+    background-color: red;
+    text-decoration: underline;
+
+}
+
+.sec-pe::before {
+    content: "este é: ";
+}
+
