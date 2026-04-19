@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #5d3dce;
+}
+nav ul {
+    /* background-color: #5d3dce; */
+    text-align: center;
+    margin-top: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    /* background-color: yellow; */
+}
+
+a {
+    display: inline-block;
+    color: #ffffff;
+    /* background-color: #401eb7; */
+    text-decoration: none;
+    padding: 1.5em;
+    margin: 0;
+}
+
+a:hover {
+    background-color: #401eb7;
+}
+/* #401eb7 */
+
+
+

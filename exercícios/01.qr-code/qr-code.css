@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+div {
+    background-color: white;
+    width: 300px;
+    /* height: 500px; */
+    border-radius: 20px;
+    margin: 5.5em auto 0;
+    padding: 0.8em;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    /* margin: 15px; */
+}
+
+h3 {
+    color: #2C3B50;
+    text-align: center;
+    margin: 1.2em;
+}
+
+p {
+    color: #878C98;
+    text-align: center;
+    margin: 1.2em;
+}
