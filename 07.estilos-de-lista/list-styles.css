@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hr-titulo {
+    border: 5px solid blue;
+    color: blue;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+
+.hr-todos {
+    border: 2px solid black;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.h2-todos {
+    text-align: center;
+}
+
+ul, ol {
+  margin: 1em 2em;
+}
+/* Diferentes marcadores de itens de lista */
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ol.upper-roman {
+    list-style-type: upper-roman;
+}
+
+ol.lower-roman {
+    list-style-type: lower-roman;
+}
+
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+/* Uma imagem como marcador de item da lista */
+ul.img-bmw {
+    list-style-image: url('/07.estilos-de-lista/image/bmw.jpj.jpg');
+    margin-left: 18em;
+}
+
+
+/* Posicione os marcadores de item da lista */
+ul.outside {
+    list-style-position: outside;
+}
+
+ul.inside {
+    list-style-position: inside;
+}
+
+
+/* Remover configurações padrão */
+ul.none-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul.propriedade-abreviada {
+    list-style: square inside url('/07.estilos-de-lista/image/bmw.jpj.jpg');
+}
+
+
+/* Lista de estilos com cores */
+ol.color-red {
+    color: #ff0000;
+    padding: 0.5em;
+}
