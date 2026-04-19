@@ -1,0 +1,131 @@
+/* Cores */
+body {
+    background-color: antiquewhite;
+}
+
+hr {
+    height: 2px; 
+    background-color: black;
+}
+
+.h-clr {
+    height: 6px; 
+    background-color: darkblue;
+    margin: 20px 0;     
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* Cores no modelo RGB */
+div.div-rgb {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.red {
+    background-color: rgb(50, 0, 0);
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+}
+
+.blue {
+    background-color: rgb(0, 0, 255);
+}
+
+
+
+/* Cores no modelo Hexadecimal */
+div.div-hexadecimal {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.red-hexa {
+    background-color: #FF0000;
+}
+
+.green-hexa {
+    background-color: #00FF00;
+}
+
+.blue-hexa {
+    background-color: #0000FF;
+}
+
+button {
+    background-color: #BFEFFF;
+    border-radius: 5px;
+}
+
+
+
+/* Modelo de cores em HSL */
+div.div-hsl {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    /* background-color: red; */
+}
+
+.red-hsl {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.green-hsl {
+    background-color: hsl(120, 100%, 50%);
+}
+
+.blue-hsl {
+    background-color: hsl(240, 100%, 50%);
+}
+
+/*  Transparência com RGBA e HSLA */
+div.div-hsla {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    /* background-color: red; */
+}
+
+.red-hsla {
+    background-color: hsl(0, 100%, 50%, 0.2);
+}
+
+.green-hsla {
+    background-color: hsl(120, 100%, 50%, 0.3);
+}
+
+.blue-hsla {
+    background-color: hsl(240, 100%, 50%, 0.3);
+}
+
+
+/* Cores por palavra-chave */
+.p-chave {
+    color: darkcyan;
+}
+
+
+
+/* Gradientes de Cor */
+.div-linearGradient {
+    background: linear-gradient(360deg, blue, red, green);
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.div-radialGradient {
+    background-image: radial-gradient(circle, blue, brown, white);
+    height: 200px;
+}
