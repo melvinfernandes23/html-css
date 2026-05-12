@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+
+.container {
+    margin: 15em auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.left {
+    width: 450px;
+    background-color: hsl(244, 38%, 16%);
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px 0 0 10px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.equal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-equal h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+}
+
+.div-equal p {
+    color: hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    /* line-height: 25px; */
+    text-transform: uppercase;
+}
+
+.right {
+    width: 450px;
+    position: relative;
+    background-image: url(../img/image-header-desktop.jpg);
+    height: 420px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.roxo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  opacity: 0.5;
+}
