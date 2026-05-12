@@ -1,0 +1,116 @@
+
+
+
+body {
+    background-color: #F3E5D8;
+}
+
+div.div-1 {
+    background-color: #FFFFFF;
+    padding: 1.5em;
+    width: 650px;
+    margin: 9em auto;
+    border-radius: 1.5em;
+}
+
+/* Ínicio do titulo */
+img {
+    border-radius: 1.5rem;
+}
+
+p {
+    color: #837F7C;
+}
+/* Fim do título */
+
+/* Ínicio da parte da div-2 */
+div.div-2 {
+    background-color: #FFF7FC;
+    border-radius: 1.5rem;
+    padding: 0.6em 1.9em;
+    margin-top: 2em;
+}
+
+h3.h3-preparation {
+    font-size: 23px;
+    color: #7B3C57;
+}
+
+.ul-1 li {
+    padding: 0.4em;
+}
+
+.ul-1 li .s-1{
+    color: #554C48;
+    font-weight: bold;
+}
+
+.ul-1 li .s-2{
+    color: #837F7C;
+}
+/* Fim da parte da div-2 */
+
+
+/* Ínicio da parte dos Ingredientes */
+h2 {
+    color: #6A4A3F;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+}
+
+.ul-2 li {
+    padding: 0.4em;
+}
+
+.ul-2 li .s-2 {
+    color: #837F7C;
+}
+/* Fim da parte dos Ingredientes */
+
+hr {
+    margin: 1.8em 0;
+}
+
+/* Ínicio da parte das Instruções */
+ol li {
+    padding: 0.4em;
+}
+
+ol li .s-1-1 {
+    color: #54514B;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+ol li .s-2-1 {
+    color: #837F7C;
+    font-weight: bolder;
+}
+
+
+
+.table-1 {
+    width: 36vw;
+    margin: 2em 0;
+}
+
+.table-1 tr td {
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+    border-collapse: collapse;
+    padding: 0.9em;
+}
+
+    tr:first-child td {
+    border-top: none;
+}
+
+
+.td-gray {
+    color:  #837F7C;
+    font-size: 20px;
+}
+
+.td-brown {
+    color:  #7B4640;
+    font-size: 19px;
+}

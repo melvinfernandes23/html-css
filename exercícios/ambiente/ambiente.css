@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+img.sun-1 {
+    position: fixed;
+    right: 9vw;
+}
+
+img.cloud-3 {
+    position: fixed;
+    right: 9vw;
+}
+
+
+/* Inicio das arvores */
+img.tree-1-1 {
+    position: fixed;
+    top: 10vh;
+}
+
+img.tree-1-2 {
+    position: fixed;
+    top: 20vh;
+    left: 13vw;
+}
+
+img.tree-1-3 {
+    position: fixed;
+    top: 5vh;
+    left: 40vw;
+}
+
+img.tree-1-4 {
+    position: fixed;
+    top: 5vh;
+    left: 75vw;
+}
+
+
+img.tree-2-1 {
+    position: fixed;
+    top: 20vh;
+    left: 30vw;
+}
+
+img.tree-2-2 {
+    position: fixed;
+    top: 10vh;
+    left: 60vw;
+}
+
+img.tree-2-3 {
+    position: fixed;
+    top: 5vh;
+    left: 20vw;
+}
+
+img.tree-2-4 {
+    position: fixed;
+    top: 20vh;
+    left: 80vw;
+}
+
+img.tree-2-5 {
+    width: 400px;
+    position: fixed;
+    top: 37vh;
+    left: 17vw;
+}
+/* Fim das arvores */
+
+
+/* Inicio dos personagens */
+
+marquee.tiger-1 {
+    width: 100%;
+    position: fixed;
+    top: 70vh;
+    left: 0;
+}
