@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+ /* div.estrada {
+  background-color: gray;
+  height: 30vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+
+} */
+
+marquee.alvo-2 {
+  width: 100%;
+  position: fixed;
+  top: 70vh;
+  right: 20;
+  z-index: 1;
+}
+
+
+marquee.tiger-1 {
+  width: 100%;
+  position: fixed;
+  top: 80vh;
+  left: 0;
+  z-index: 1;
+}
+
+
+
+img.casa-1 {
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  
+}
